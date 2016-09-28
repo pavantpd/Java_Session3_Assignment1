@@ -1,0 +1,25 @@
+package com.java.assignment1;
+import java.lang.Math;
+import java.util.Scanner;
+public class Squarndcube {
+
+	public static void main(String[] args) {
+		
+		//USING SCANNER CLASS
+		Scanner S = new Scanner(System.in); 
+	
+		//SQUARE ROOT PART	
+		System.out.println("Enter the value to know the square root of :");
+		double A = S.nextDouble(); //input taking
+		
+		double B = Math.sqrt(A); //square root using
+		
+		System.out.println("Square root of " +A + "is " +B);
+		
+		//CUBE ROOT PART
+		System.out.println("Enter the value to know the Cube root of :");
+		double C = S.nextDouble();
+		
+		double D = Math.sqrt(A);
+		
+		System.out.println("Square root of " +C + "is " +D);
