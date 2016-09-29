@@ -20,6 +20,6 @@ public class Squarndcube {
 		System.out.println("Enter the value to know the Cube root of :");
 		double C = S.nextDouble();
 		
-		double D = Math.sqrt(A);
+		double D = Math.cbrt(A);
 		
-		System.out.println("Square root of " +C + "is " +D);
+		System.out.println("cube root of " +C + "is " +D);
